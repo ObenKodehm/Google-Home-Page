@@ -1,0 +1,175 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* NAVIGATION */
+
+
+nav {
+  width: 1570px;
+  margin: 0 auto;
+  height: 100px;
+}
+
+.sign-in {
+  width: 70px;
+  height: 30px;
+  background-color: #4285f4;
+  margin-top: 15px;
+  border-radius: 5%;
+  float: right;
+  cursor: default;
+}
+
+.sign-in p {
+  font-size: 15px;
+  color: #FFF;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 6.5px;
+}
+
+nav ul li {
+  display: inline;
+  padding: 22px 10px 0 10px;
+}
+
+nav ul li a {
+  display: block;
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+li .material-icons {
+  cursor: pointer;
+}
+
+
+/* Search Bar and Google Logo */
+
+#mic-icon {
+  width: 33px;
+  position: absolute;
+  left: 1046px;
+  top: 327px;
+  cursor: pointer;
+}
+
+#search-icon {
+  position: absolute;
+  left: 524px;
+  top: 335px;
+  color: #989998;
+  font-size: 20px;
+  cursor: default;
+}
+
+.search-bar {
+  padding-top: 100px;
+}
+
+input[type="text"] {
+  display: block;
+  margin: 0 auto;
+}
+
+.google-logo {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+input[type="text"] {
+  width: 480px;
+  height: 42px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  font-size: 16px;
+  padding: 0 50px;
+}
+
+input[type="text"]:hover {
+  box-shadow: 1px 1px 5px 0 #BEBFBE;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: 1px 1px 5px 0 #BEBFBE;
+}
+
+
+
+/* options */
+.options {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+input[type="submit"] {
+  background-color: #f2f2f2;
+  color: #5F6368;
+  border: none;
+  font-size: 14px;
+  height: 36px;
+  padding: 0 10px;
+  margin: 30px 5px 0 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+input[name="Google-Search"] {
+  width: 120px;
+}
+
+input[name="lucky"] {
+  width: 140px;
+}
+
+input[type="submit"]:hover {
+  box-shadow: 1px 1px 5px 0 #BEBFBE;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0);
+}
+
+input[type="submit"]:focus {
+  border: 1px solid #1990FF;
+}
+
+
+/* FOOTER */
+
+footer {
+width: 100%;
+height: 45px;
+background-color: #f2f2f2;
+position: fixed;
+top: 745px;
+}
+
+footer ul {
+  width: 1566px;
+  display: block;
+  margin: 0 auto;
+}
+
+footer ul li {
+  display: inline;
+  padding: 15px 13px 0 13px;
+
+}
+
+footer ul li a {
+  color: #5F6368;
+  font-size: 14px;
+}
