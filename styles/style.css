@@ -57,36 +57,33 @@ li .material-icons {
 
 /* Search Bar and Google Logo */
 
-#mic-icon {
-  width: 33px;
-  position: absolute;
-  left: 1046px;
-  top: 327px;
-  cursor: pointer;
-}
-
-#search-icon {
-  position: absolute;
-  left: 524px;
-  top: 335px;
-  color: #989998;
-  font-size: 20px;
-  cursor: default;
-}
-
-.search-bar {
-  padding-top: 100px;
-}
-
-input[type="text"] {
-  display: block;
-  margin: 0 auto;
-}
 
 .google-logo {
   display: block;
   margin: 0 auto;
-  padding-bottom: 30px;
+  padding: 100px 0 0 0;
+}
+
+.search-bar {
+  display: block;
+  margin: 0 auto;
+  width: 582px;
+  height: 44px;
+  padding-bottom: 40px;
+}
+
+#search-icon {
+  width: 20px;
+  position: relative;
+  top: 35px;
+  left: 17px;
+}
+
+#mic-icon {
+  width: 33px;
+  position: relative;
+  top: 42px;
+  left: 510px;
 }
 
 input[type="text"] {
