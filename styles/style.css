@@ -33,7 +33,7 @@ nav a {
 .nav-links {
   width: 250px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .nav-links img {
@@ -60,7 +60,9 @@ nav a {
 .search-bar {
   display: block;
   margin: 0 auto;
-  width: fit-content;
+  /* width: fit-content; */
+  width: 70vw;
+  max-width: 580px;
   height: 42px;
   position: relative;
 }
@@ -87,13 +89,14 @@ nav a {
 input[type="text"] {
   display: block;
   margin: 0 auto;
-  width: 50vw;
-  max-width: 480px;
+  width: 70vw;
+  max-width: 580px;
   height: 42px;
   border-radius: 30px;
   padding: 0 50px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   font-size: 17px;
+  box-sizing: border-box;
 }
 
 input[type="text"]:hover {
@@ -109,9 +112,10 @@ input[type="text"]:focus {
 /* OPTIONS */
 
 .options {
-  width: fit-content;
+  width: 283.969px;
   display: block;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 input[type="submit"] {
@@ -173,7 +177,7 @@ footer a {
 
 footer div {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .footer-links-left {
@@ -189,7 +193,7 @@ footer div {
   footer {
     height: 70px;
     flex-flow: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
 
   footer a {
