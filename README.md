@@ -1,3 +1,3 @@
-# Google-Home-Page
-The Odin Project
-Project 1 
+# Google-Home-Page V1
+## The Odin Project
+### Project 1 
